@@ -36,7 +36,7 @@ Freelancer Income Analytics (FIA) — это Python-приложение, кот
    DATA_PATH=/path/to/your/freelancer_earnings_bd.csv
 5. Использование
 
-    Файл**freelancer_earnings_bd.csv** не включён в репозиторий, так как это локальные данные. Вы можете     скачать его следующим образом:
+   Файл **freelancer_earnings_bd.csv** не включён в репозиторий, так как это локальные данные. Вы можете     скачать его следующим образом:
 
   **Скачать с Kaggle** :
 
@@ -46,13 +46,13 @@ Freelancer Income Analytics (FIA) — это Python-приложение, кот
 
     Нажмите кнопку "Download" (требуется учётная запись Kaggle).
 
-    После скачивания переместите файл в удобную директорию (например,**/home/user/data/**) и укажите путь к          нему в **.env** (например, **DATA_PATH=/home/user/data/freelancer_earnings_bd.csv**) или в коде.
+После скачивания переместите файл в удобную директорию (например,**/home/user/data/**) и укажите путь к          нему в **.env** (например, **DATA_PATH=/home/user/data/freelancer_earnings_bd.csv**) или в коде.
 
 6. Запустите CLI с запросом:
 
-    python3 -m freelancer-analytics.cli.main "Как распределяется доход фрилансеров в зависимости от региона      проживания?" --verbose
+   python3 -m freelancer-analytics.cli.main "Как распределяется доход фрилансеров в зависимости от региона      проживания?" --verbose
 
-    python3 -m freelancer-analytics.cli.main "Насколько выше доход у фрилансеров, принимающих оплату в криптовалюте, по сравнению с другими способами оплаты?" --verbose
+   python3 -m freelancer-analytics.cli.main "Насколько выше доход у фрилансеров, принимающих оплату в криптовалюте, по сравнению с другими способами оплаты?" --verbose
 
-    python3 -m freelancer-analytics.cli.main "Какой процент фрилансеров, считающих себя экспертами, выполнил менее 100 проектов?
-" --verbose
+   python3 -m freelancer-analytics.cli.main "Какой процент фрилансеров, считающих себя экспертами, выполнил менее 100 проектов?
+   " --verbose
