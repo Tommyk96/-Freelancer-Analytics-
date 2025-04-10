@@ -48,6 +48,29 @@ Freelancer Income Analytics (FIA) — это Python-приложение, кот
 
 После скачивания переместите файл в удобную директорию (например,**/home/user/data/**) и укажите путь к          нему в **.env** (например, **DATA_PATH=/home/user/data/freelancer_earnings_bd.csv**) или в коде.
 
+Либо альтернативный способ:
+
+ **Скачать с Kaggle через Python** :
+
+    Установите библиотеку**kagglehub**
+
+    pip install kagglehub
+
+Настройте Kaggle API:
+
+    Зарегистрируйтесь на Kaggle, перейдите в "Settings" → "API" → "Create New Token", скачайте**kaggle.json**.
+
+    Поместите**kaggle.json** в **~/.kaggle/** (Linux/Mac) или настройте переменные окружения **KAGGLE_USERNAME**  и **KAGGLE_KEY**.
+
+Выполните следующий скрипт:
+
+import kagglehub
+
+path = kagglehub.dataset_download("shohinurpervezshohan/freelancer-earnings-and-job-trends")
+print("Path to dataset files:", path)
+
+После выполнения файл **freelancer_earnings_bd.csv** будет скачан в локальную директорию (например, **~/.kaggle/datasets/shohinurpervezshohan/freelancer-earnings-and-job-trends**). Укажите этот путь в **.env** или коде.
+
 6. Запустите CLI с запросом:
 
    python3 -m freelancer-analytics.cli.main "Как распределяется доход фрилансеров в зависимости от региона      проживания?" --verbose
