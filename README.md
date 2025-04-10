@@ -18,7 +18,7 @@ Freelancer Income Analytics (FIA) — это Python-приложение, кот
 1. Клонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/<ваш-username>/FreelancerIncomeAnalytics.git
+   git clone https://github.com/Tommyk96/FreelancerAnalytics.git
    cd FreelancerIncomeAnalytics
    ```
 2. Создайте виртуальное окружение и активируйте его:
