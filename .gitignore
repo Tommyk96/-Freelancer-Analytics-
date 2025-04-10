@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Логи и временные файлы
+*.log
+query_logs.log
+
+# Данные и секреты
+.env
+data/*.csv  # Если данные не для публикации
+*.db
+
+# IDE
+.idea/
+.vscode/
