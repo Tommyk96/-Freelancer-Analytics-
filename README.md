@@ -37,9 +37,11 @@ Freelancer Income Analytics (FIA) — это Python-приложение, кот
 5. ## Использование
 
    Запустите CLI с запросом:
+
+
     python3 -m freelancer-analytics.cli.main "Как распределяется доход фрилансеров в зависимости от региона     проживания?" --verbose
 
     python3 -m freelancer-analytics.cli.main "Насколько выше доход у фрилансеров, принимающих оплату в криптовалюте, по сравнению с другими способами оплаты?" --verbose
 
-python3 -m freelancer-analytics.cli.main "Какой процент фрилансеров, считающих себя экспертами, выполнил менее 100 проектов?
+    python3 -m freelancer-analytics.cli.main "Какой процент фрилансеров, считающих себя экспертами, выполнил менее 100 проектов?
 " --verbose
